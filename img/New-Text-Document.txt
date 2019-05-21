@@ -1,0 +1,10 @@
+use FileZilla.
+
+link : http://204.44.82.130/~mehlousc/ezzariy.com/
+
+
+--for login to FileZilla--
+host : 204.44.82.130
+username : Ezzariy@ezzariy.com
+pass : 0699240014azerty
+port : 21
