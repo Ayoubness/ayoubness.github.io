@@ -42,7 +42,7 @@
 .menu.show {
   visibility: visible;
 }
-
+/*ZZZZZZZZZZZZZZZZZZZZZZZ index*/
 .menu-branding,
 .menu-nav {
   display: flex;
@@ -53,6 +53,7 @@
   width: 50%;
   height: 100vh;
   overflow: hidden;
+  opacity:3;
 }
 
 .menu-nav {
@@ -272,9 +273,9 @@ main#home h1 {
 }
 
 .projects img:hover {
-  opacity: 0.5;
+  opacity: 0.3;
   border-color: #33c4e8;
-  transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .boxes {
