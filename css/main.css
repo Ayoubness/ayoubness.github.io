@@ -43,6 +43,7 @@
   visibility: visible;
 }
 /*ZZZZZZZZZZZZZZZZZZZZZZZ index*/
+
 .menu-branding,
 .menu-nav {
   display: flex;
@@ -130,6 +131,10 @@
 
 .nav-item:nth-child(4) {
   transition-delay: 0.4s;
+}
+
+.nav-item:nth-child(5) {
+  transition-delay: 0.5s;
 }
 
 * {
@@ -270,12 +275,15 @@ main#home h1 {
 .projects img {
   width: 100%;
   border: 3px #fff solid;
+  box-shadow:0 0 16px rgba(0,0,0,0.5);
+
 }
 
 .projects img:hover {
   opacity: 0.3;
   border-color: #33c4e8;
   transition: all 0.3s ease-out;
+  
 }
 
 .boxes {
@@ -292,6 +300,8 @@ main#home h1 {
   padding: 1.5rem 2.5rem;
   margin-bottom: 3rem;
   transition: all 0.5s ease-out;
+  box-shadow:0 0 16px rgba(0,0,0,0.5);
+
 }
 
 .boxes div:hover {
